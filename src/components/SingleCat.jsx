@@ -23,7 +23,7 @@ export const SingleCat = () => {
 
   return (
     <>
-      <section className="max-w-5xl mx-auto flex items-center justify-center h-screen p-14">
+      <section className="max-w-5xl mx-auto flex items-center justify-center sm:h-screen md:h-screen lg:h-screen xl:h-screen 2xl:h-screen p-14">
         {cat.map((item, i) => {
           return (
             <div
